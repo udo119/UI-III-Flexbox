@@ -84,19 +84,23 @@ header nav a{
 }
 
 header{
-	padding-bottom: 15px;
+	padding-bottom: 8%;
 }
 
 h1{
 	font-size: 85px;
 }
 .imgandheader{
-	display: inline-block;
+	display: flex;
+	justify-content: space-around;
     
 }
+.imgandheader img{
+	margin-bottom: 10%;
+}
 .left{
-	display: inline-block;
-	padding-right: 155px;
+	display: flex;
+	flex-direction: column;
 }
 
 .left button{
@@ -105,34 +109,34 @@ h1{
 	border: 1px solid black;
 	color: black;
 	line-height: 30px;
-	width: 50%;
-	margin: 50px
+	width: 60%;
+	margin-left: 20%;
 }
 
 .features{
-	display: inline-block;
-    width: 30%;
-    margin-right: 23%;
+    width: 48%;
+    margin-right: 1%;
 }
+
 .about{
-    display: inline-block;
-	width: 30%;
+	width: 50%;
 }
 .middle-img{
 	margin: 30px 0;
+	width: 100%;
+}
+.p1{
+	display: flex;
 }
 .services{
-	display: inline-block;
 	width: 30%;
 	margin-right: 3%;
 }
 .product{
-	display: inline-block;
 	width: 30%;
 	margin-right: 3%;
 }
 .vision{
-	display: inline-block;
 	width: 30%;
 	margin-right: 3%;
 }
@@ -150,7 +154,6 @@ p.copyright{
 	text-align: center;
 }
 .blackbar{
-	padding: 15px;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     padding-bottom: 45px;
@@ -163,6 +166,11 @@ p.Demand{
 	text-align: center;
 }
 
+.p2{
+	display: flex;
+}
+
+/*services page*/
 
 .servicess{
 	padding: 3% 0;
