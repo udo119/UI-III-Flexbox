@@ -272,4 +272,8 @@ button{
 }
 .copy{
 	text-align: center;
+	padding-top: 3%;
+}
+h2{
+	font-size: 2rem;
 }
