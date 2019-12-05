@@ -171,6 +171,9 @@ p.Demand{
 }
 
 /*services page*/
+.navbar{
+	padding-bottom: 3%;
+}
 
 .servicess{
 	padding: 3% 0;
@@ -186,7 +189,7 @@ p.Demand{
 	margin:20px;
 }
 img.services-header-img{
-	padding: 0 3%;
+	width: 100%;
 }
 .ui{
 	display: flex;
